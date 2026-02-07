@@ -76,10 +76,13 @@ if __name__ == "__main__":
     # 1. LIST OF NUMBERS: Replace these with the actual WhatsApp numbers.
     #    MUST be in international format (e.g., '+19876543210').
 
-    target_numbers = []
+    target_numbers = [+213698062454]
 
     # 2. MESSAGE CONTENT: Write your single message here.
-    broadcast_message = ()
+    broadcast_message = (Bonjour,
+J’espère que vous allez bien.
+Je vous contacte via ce message pour vous informer / rester en contact.
+Merci et excellente journée.)
 
     # --- EXECUTION ---
     broadcast_whatsapp_message(target_numbers, broadcast_message)
